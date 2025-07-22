@@ -1,0 +1,226 @@
+/* font styles */
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+/* shared styles */
+.cmn-btn{
+    background-color:#E55473 ;
+    color:#FFFFFF ;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    padding: 20px 43px;
+}
+.cmn-img{
+    width: 100%;
+}
+.cmn-margin{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.cmn-title{
+    font-size:2.5rem ;
+    font-weight: 900;
+    color: #272727;
+    margin: 0;
+}
+.cmn-description{
+    font-size: 1.125rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+/* header styles */
+.header{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-content-title{
+    font-size: 5rem;
+    font-weight:900;
+    color:#272727;
+    margin-bottom: 0;
+}
+
+/* smaller devices banner  */
+@media screen and (max-width:576px){
+    .banner{
+        flex-direction: column;
+    }
+}
+
+/* features styles  */
+.features{
+    margin:150px auto ;
+}
+
+.features-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features-card-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+
+}
+.features-card-1{
+    background-color:rgba(167, 33, 98, 0.15) ;
+    border-top-left-radius:50%;
+    border-top-right-radius:50% ;
+}
+.features-card-2{
+    background-color:rgba(5, 151, 160, 0.15) ;
+    border-top-left-radius:50%;
+    border-top-right-radius:50% ;
+    
+}
+.features-card-3{
+    background-color:rgba(71, 125, 17, 0.15) ;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;  
+}
+.features-card-subtitle{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* smaller devices features  */
+@media screen and (max-width:576px){
+    .features-card-container{
+    grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* teams section  */
+.teams{
+    display:flex;
+    background-color:rgba(39, 39, 39, 0.05);
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    margin-bottom: 130px;
+}
+
+/* smaller devices teams  */
+@media screen and (max-width:576px){
+    .teams{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* hot-deals styles  */
+.hot-deals{
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+.hot-deals-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot-deals-content{
+    text-align: center;
+}
+.off{
+    color:#E55473 ;
+}
+
+/* smaller devices hotdeals  */
+@media screen and (max-width:576px){
+    .hot-deals-container{
+        flex-direction: column;
+    }
+}
+
+/* instagram section  */
+.instagram{
+    margin: 100px auto;
+}
+.instagram-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.insta-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.insta-img{
+ width: 90%;
+}
+
+/* smaller devices instagram  */
+@media screen and (max-width:576px){
+    .instagram-content{
+    margin-top: 50px;
+}
+    .insta-card{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+}
+
+ /* deals section  */
+ .deals{
+    text-align: center;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-size:cover;
+    margin-bottom: 100px;
+ }
+
+ .deals-container{
+    padding:100px ;
+ }
+ .deals input{
+    border: none; 
+    padding: 22px 150px 20px 43px;
+    border-radius: 8px;
+ }
+
+ /* smaller devices deals  */
+@media screen and (max-width:576px){
+    .deals{
+    background-size:cover;
+
+ }
+    .deals input{ 
+    padding: 22px 100px 20px 43px;
+    margin-bottom: 20px;
+ }
+}
+
+/* footer styles  */
+.footer{
+    background-color:#111010 ;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 150px;
+}
+.footer-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.footer-description{
+    color:rgba(255, 255, 255, 0.9);
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+ /* smaller devices footer  */
+@media screen and (max-width:576px){
+  .footer{
+    padding: 20px;
+  }
+}
